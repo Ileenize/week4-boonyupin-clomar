@@ -70,10 +70,35 @@ body {
 }
 
 .nav-menu a:hover {
-  color: #818ccc;
+  color: var(--primary-color);
 }
 
 .nav-signin {
   font-weight: 600;
   color: var(--primary-color) !important;
 }
+
+/*hero-section*/
+.hero-section{
+  display: flex;
+  background-color: #3f51b5;
+  border: 3px solid #de8b32;
+  border-radius: 6px;
+  margin-bottom: var(--spacing-md);
+  overflow: hidden;
+}
+
+.box-hero-img{
+  width: 60%;
+  min-height: 250px;
+  background-color: #de8b32;
+  border-right: 3px solid #de8b32;
+}
+
+.hero-content {
+  width: 40%;
+  min-height: 250px;
+  padding: 40px 20px;
+  background-color: beige;
+}
+
