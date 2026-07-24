@@ -16,20 +16,20 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #b0b0b0;
+    background-color: #d5d5d5;
     color: black;
     line-height: 1.6;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 70px;
+    justify-content: space-between; /* ดันโลโก้อยู่ซ้าย เมนูอยู่ขวา */
+    align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+    height: 64px;
     padding: 0 var(--spacing-lg);
     background-color: white;
     border-bottom: 2px solid;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: var(--spacing-xl);
 }
 
 .logo-container {
@@ -50,21 +50,21 @@ body {
   color: black;
 }
 
-.logo-derk {
-  color: #b0b0b0;
+.logo-dark {
+  color: #616161;
   font-weight: normal;
-  margin-left: 3px;
+  margin-left: -5px;
 }
 
 .nav-menu {
   display: flex;
   align-items: center;
-  gap: var(--spacing-lg);
+  gap: var(--spacing-md);
 }
 
 .nav-menu a {
   text-decoration: none;
-  color: #3f51b5;
+  color: #5A7ACD;
   font-size: 1rem;
   transition: color 0.2 ease;
 }
@@ -80,9 +80,9 @@ body {
 
 /*hero-section*/
 .hero-section{
-  display: flex;
-  background-color: #3f51b5;
-  border: 3px solid #de8b32;
+  display: flex; /* ทำให้รูปกับข้อความเรียงตัวอยู่บรรทัดเดียวกันแบบซ้าย-ขวา */
+  background-color: #4A70A9;
+  border: 3px solid #8FABD4;
   border-radius: 6px;
   margin-bottom: var(--spacing-md);
   overflow: hidden;
@@ -91,14 +91,14 @@ body {
 .box-hero-img{
   width: 60%;
   min-height: 250px;
-  background-color: #de8b32;
-  border-right: 3px solid #de8b32;
+  background-color: #4A70A9;
+  border-right: 3px solid #8FABD4;
 }
 
 .hero-content {
   width: 40%;
   min-height: 250px;
   padding: 40px 20px;
-  background-color: beige;
+  background-color: #E1F4F3;
 }
 
